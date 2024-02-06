@@ -1,0 +1,49 @@
+<!DOCTYPE html>    
+<html>    
+<head>
+    <title>Malicious Software</title>    
+    <style>
+        body{
+            margin: 20 0 0 450px;  
+            padding: 80px;   
+            display: flex;
+            flex-direction: column;
+            background-color:  #7c9f98; 
+            align-items: center;
+            justify-content: center;
+            font-family: 'Arial';
+            z-index: 1;
+        }
+        #proceed{  
+            width: 300px;  
+            height: 40px; 
+            font-size:30px; 
+            border: none;  
+            border-radius: 17px;  
+            padding-left: 7px;
+            color: green;   
+        }  
+        h3{
+            text-align: center; 
+            font-size: 50px;
+            color: black;  
+
+        }
+        
+        
+  </style>    
+ 
+</head>    
+<body>
+    <br><br>
+    <br><br>
+    <h3>Malicious Website</h3>
+    <div class="transaction">   
+        <form id="transaction" method="get" action="transaction.php">    
+            <button  type="button" onclick="alert('Malicious Software has been downloaded on your PC ')" name="proceed" id="proceed">Download</button>      
+            <br><br>       
+        </form>     
+    </div>
+
+</body>    
+</html>
